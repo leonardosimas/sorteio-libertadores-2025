@@ -52,7 +52,7 @@
 import { ref, onMounted } from "vue";
 import AboutCard from "@/components/About/AboutCard.vue";
 
-import "@/styles/Home.scss";
+import "@/styles/home.scss";
 import "@fontsource/ubuntu";
 import BtnLightDark from "@/components/btnLightDark.vue";
 
@@ -89,7 +89,7 @@ const items = [
 </script>
     
 <style lang="scss" scoped>
-@import "@/styles/Home.scss"; /* Certifique-se de que o caminho está correto */
+@import "@/styles/home.scss";
 </style>
 
       

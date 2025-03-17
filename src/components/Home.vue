@@ -74,7 +74,7 @@
   
   <script setup>
 import { ref, onMounted } from "vue";
-import "@/styles/Home.scss";
+import "@/styles/home.scss";
 import "@fontsource/ubuntu";
 import Alert from "./Alert.vue";
 import BtnLightDark from "./btnLightDark.vue";
