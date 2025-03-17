@@ -1,6 +1,25 @@
 <<<<<<< HEAD
 # simulador-sorteio-libertadores
 Projeto para simular o sorteio da Libertadores 2025
+
+[Simulador sorteio Libertadores 2025](https://simuladorsorteio.netlify.app/)
+
+Desafio para criar um simulador de sorteio
+
+### REGRAS DO SORTEIO
+- O time campeão do ano anterior, será o cabeça de chave do grupo A
+- Times dos mesmos países não podem cair no mesmo grupo, com exceção dos times que vierem da pré-libertadores
+
+### FEATURES
+- Consegui fazer o check do campeão :white_check_mark:
+- Consegui fazer o check dos times que vieram da pré-libertadores :white_check_mark:
+- Consegui detectar conflitos e pular para os próximos grupos :white_check_mark:
+- Botão de reinício inserido, após conflito crítico encontrado :white_check_mark:
+
+### BUGS
+- Checks preemptivos do 7 e 8 times não consegui terminar :x:
+- Check de bugs raros para 2 ou 3 times brasileiros ou 2 argentinos sendo sorteados no final do pote 1, o que leva aos outros potes restrições para os times serem alocados até os grupos E ou F :x:
+
 =======
 # Vuetify (Default)
 
