@@ -1,0 +1,69 @@
+{
+  "Potes": {
+    "Pote 1": [
+      { "Nome": "Botafogo", "Pais": "Brasil", "Posicao": "A1" },
+      { "Nome": "River Plate", "Pais": "Argentina", "Posicao": "" },
+      { "Nome": "Palmeiras", "Pais": "Brasil", "Posicao": "" },
+      { "Nome": "Flamengo", "Pais": "Brasil", "Posicao": "" },
+      { "Nome": "Peñarol", "Pais": "Uruguai", "Posicao": "" },
+      { "Nome": "Nacional", "Pais": "Uruguai", "Posicao": "" },
+      { "Nome": "São Paulo", "Pais": "Brasil", "Posicao": "" },
+      { "Nome": "Racing", "Pais": "Argentina", "Posicao": "" }
+    ],
+    "Pote 2": [
+      { "Nome": "Olimpia", "Pais": "Paraguai", "Posicao": "" },
+      { "Nome": "LDU", "Pais": "Equador", "Posicao": "" },
+      { "Nome": "Internacional", "Pais": "Brasil", "Posicao": "" },
+      { "Nome": "Libertad", "Pais": "Paraguai", "Posicao": "" },
+      { "Nome": "Independiente del Valle", "Pais": "Equador", "Posicao": "" },
+      { "Nome": "Colo-Colo", "Pais": "Chile", "Posicao": "" },
+      { "Nome": "Estudiantes de La Plata", "Pais": "Argentina", "Posicao": "" },
+      { "Nome": "Bolívar", "Pais": "Bolívia", "Posicao": "" }
+    ],
+    "Pote 3": [
+      { "Nome": "Atlético Nacional", "Pais": "Colômbia", "Posicao": "" },
+      { "Nome": "Vélez Sarsfield", "Pais": "Argentina", "Posicao": "" },
+      { "Nome": "Sporting Cristal", "Pais": "Peru", "Posicao": "" },
+      { "Nome": "Fortaleza", "Pais": "Brasil", "Posicao": "" },
+      { "Nome": "Universitário", "Pais": "Peru", "Posicao": "" },
+      { "Nome": "Talleres", "Pais": "Argentina", "Posicao": "" },
+      { "Nome": "Deportivo Táchira", "Pais": "Venezuela", "Posicao": "" },
+      { "Nome": "Universidad de Chile", "Pais": "Chile", "Posicao": "" }
+    ],
+    "Pote 4": [
+      {
+        "Nome": "Carabobo",
+        "Pais": "Venezuela",
+        "Posicao": "",
+        "pre": "false"
+      },
+      {
+        "Nome": "Atlético Bucaramanga",
+        "Pais": "Colômbia",
+        "Posicao": "",
+        "pre": "false"
+      },
+      {
+        "Nome": "San Antonio Bulo Bulo",
+        "Pais": "Bolívia",
+        "Posicao": "",
+        "pre": "false"
+      },
+      {
+        "Nome": "Central Córdoba",
+        "Pais": "Argentina",
+        "Posicao": "",
+        "pre": "false"
+      },
+      { "Nome": "Alianza Lima", "Pais": "Peru", "Posicao": "", "pre": "true" },
+      {
+        "Nome": "Cerro Porteño",
+        "Pais": "Paraguai",
+        "Posicao": "",
+        "pre": "true"
+      },
+      { "Nome": "Barcelona", "Pais": "Equador", "Posicao": "", "pre": "true" },
+      { "Nome": "Bahia", "Pais": "Brasil", "Posicao": "", "pre": "true" }
+    ]
+  }
+}

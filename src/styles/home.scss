@@ -1,0 +1,60 @@
+@use "./color" as *;
+
+.v-toolbar__prepend,
+.v-toolbar__append {
+  display: flex;
+  align-self: center !important;
+}
+
+.pote-card {
+  padding: 16px;
+  text-align: center;
+  background-color: $copper;
+  border-color: $metallicBrown;
+  width: 100%;
+  min-height: 350px; // Ajuste na altura mínima
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pote-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Ubuntu";
+}
+
+.pote-lista {
+  list-style-type: none;
+  padding: 0;
+  font-size: 14x;
+  font-weight: bold;
+  color: $white;
+  text-transform: uppercase;
+  flex-grow: 1;
+  width: 100%; // Mantém a lista organizada dentro do card
+  text-align: center;
+  font-family: "Ubuntu";
+}
+
+.pote-lista li {
+  padding: 4px 0;
+  white-space: nowrap; // Impede a quebra de linha nos nomes dos times
+  overflow: hidden;
+  text-overflow: ellipsis; // Adiciona "..." caso o texto seja muito longo
+  max-width: 100%;
+}
+
+.pote-divider {
+  opacity: 1;
+  border-color: black;
+}
+
+.v-btn {
+  margin-top: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Ubuntu";
+}
