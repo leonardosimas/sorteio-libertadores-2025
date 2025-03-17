@@ -8,13 +8,13 @@
       Simulador para o sorteio Libertadores 2025
     </v-app-bar-title>
     <RouterLink to="/" style="text-decoration: none; color: inherit">
-        <v-list-item :value="item" color="primary">
-          <template v-slot:prepend>
-            <v-icon icon="mdi-home"></v-icon>
-          </template>
-          <v-list-item-title :textContent="Home"></v-list-item-title>
-        </v-list-item>
-      </RouterLink>
+      <v-list-item :value="item" color="primary">
+        <template v-slot:prepend>
+          <v-icon icon="mdi-home"></v-icon>
+        </template>
+        <v-list-item-title :textContent="Home"></v-list-item-title>
+      </v-list-item>
+    </RouterLink>
     <BtnLightDark />
   </v-app-bar>
   <div>
@@ -88,6 +88,8 @@ const items = [
 ];
 </script>
     
-    <style>
+<style lang="scss" scoped>
+@import "@/styles/Home.scss"; /* Certifique-se de que o caminho está correto */
 </style>
+
       
